@@ -24,7 +24,7 @@ namespace OOP2Test2Program
         /// <inheritdoc/>
         public override string ToString()
         {
-            return value.ToString();
+            return this.value.ToString();
         }
     }
 }
