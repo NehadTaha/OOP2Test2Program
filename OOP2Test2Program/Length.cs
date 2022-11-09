@@ -14,12 +14,12 @@ namespace OOP2Test2Program
         /// <summary>
         /// Field saving the length. Negative values are not permitted.
         /// </summary>
-        public int value;
+        private int value;
 
         /// <summary>
         /// Field saving the unit. Only use "m" and "ft" as values.
         /// </summary>
-        public string unit;
+        private string unit;
 
         /// <inheritdoc/>
         public override string ToString()
